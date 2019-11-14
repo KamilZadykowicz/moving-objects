@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animation-box {
+    position: relative;
+    background-color: #201D34;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.flying-element1 {
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    right: 100px;
+}
+
+.flying-element2 {
+    position: absolute;
+    width: 400px;
+    bottom: 100px;
+    left: -120px;
+}
